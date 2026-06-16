@@ -1,0 +1,36 @@
+name: chaudhary_traders
+description: A complete offline business management application for Chaudhary Traders.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  path_provider: ^2.1.2
+  provider: ^6.1.2
+  intl: ^0.19.0
+  shared_preferences: ^2.2.3
+  fl_chart: ^0.67.0
+  share_plus: ^9.0.0
+  file_picker: ^8.0.3
+  pdf: ^3.11.0
+  printing: ^5.13.1
+  cupertino_icons: ^1.0.6
+  uuid: ^4.4.0
+  permission_handler: ^11.3.1
+  open_file: ^3.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
